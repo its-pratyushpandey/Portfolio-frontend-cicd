@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8080/api/portfolio';
+const API_BASE_URL = 'http://localhost:8070/api/portfolio';
 
 class ApiService {
   async makeRequest(endpoint, options = {}) {
